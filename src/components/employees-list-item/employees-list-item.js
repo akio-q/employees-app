@@ -14,7 +14,9 @@ const EmpolyeesListItem = (props) =>  {
     return (
         <li className={classNames}>
             <span className="list-group-item-label"
-                    onClick={onToggleProp} data-toggle="rise">{name}</span>
+                    onClick={onToggleProp} 
+                    data-toggle="rise"
+                    tabindex="0">{name}</span>
             <input type="text" className="list-group-item-input" defaultValue={salary + '$'} onInput={onUpdateSalary} />
             <div className="d-flex justify-content-center align-items-center">
                 <button type="button"
