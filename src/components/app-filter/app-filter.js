@@ -4,6 +4,7 @@ const AppFilter = (props) => {
     const buttonsData = [
         {name: 'all', label: 'All te employees'},
         {name: 'rise', label: 'For promotion'},
+        {name: 'increase', label: 'For recieving a premium'},
         {name: 'moreThan1000', label: 'Salary is more than 1000$'}
     ];
 
